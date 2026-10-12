@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- This line makes the site fit properly on mobile screens -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LocalKart - Support Local, Shop Homemade</title>
+  <!-- Google Fonts (needs internet). A default font is used if offline -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Nunito:wght@400;700;800&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <a href="index.html" class="logo">Local<span>Kart</span></a>
+    <nav>
+      <a href="#snacks">Snacks</a>
+      <a href="#handmade">Handmade</a>
+      <a href="#tailoring">Tailoring</a>
+      <a href="#pickles">Pickles</a>
+    </nav>
+  </header>
+
+  <!-- ===== HERO BANNER ===== -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Support Local, Shop Homemade</h1>
+      <p>Snacks, handmade items, tailoring, pickles and more, all from sellers in your own town.</p>
+      <!-- Both buttons open Page 2 (order.html) -->
+      <a class="btn btn-gold" href="order.html?type=order">Order Now</a>
+      <a class="btn btn-outline" href="order.html?type=sell">Sell With Us</a>
+    </div>
+  </section>
+
+  <!-- ===== CATEGORY BUTTONS (clicking one scrolls to that section) ===== -->
+  <div class="categories">
+    <a href="#snacks">Snacks</a>
+    <a href="#handmade">Handmade items</a>
+    <a href="#tailoring">Tailoring</a>
+    <a href="#pickles">Pickles and Masala</a>
+  </div>
+
+  <!-- ===== SNACKS ===== -->
+  <section class="section" id="snacks">
+    <h2>Snacks</h2>
+    <div class="grid">
+      <!-- One card = one product. Copy-paste a card and change the details -->
+      <div class="card">
+        <h3>Murukku (500 g)</h3>
+        <p class="seller">by Lakshmi Amma</p>
+        <p class="price">Rs. 180</p>
+        <p class="meta">Area: Tambaram</p>
+        <a class="call" href="tel:+910000000001">Call: 00000 00001</a>
+      </div>
+      <div class="card">
+        <h3>Adhirasam (10 pcs)</h3>
+        <p class="seller">by Selvi's Kitchen</p>
+        <p class="price">Rs. 150</p>
+        <p class="meta">Area: Velachery</p>
+        <a class="call" href="tel:+910000000002">Call: 00000 00002</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HANDMADE ===== -->
+  <section class="section" id="handmade">
+    <h2>Handmade items</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Wire Basket</h3>
+        <p class="seller">by Meena Crafts</p>
+        <p class="price">Rs. 250</p>
+        <p class="meta">Area: Adyar</p>
+        <a class="call" href="tel:+910000000003">Call: 00000 00003</a>
+      </div>
+      <div class="card">
+        <h3>Handmade Soap Set</h3>
+        <p class="seller">by Nila Naturals</p>
+        <p class="price">Rs. 120</p>
+        <p class="meta">Area: Chromepet</p>
+        <a class="call" href="tel:+910000000004">Call: 00000 00004</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TAILORING ===== -->
+  <section class="section" id="tailoring">
+    <h2>Tailoring</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Blouse Stitching</h3>
+        <p class="seller">by Radha Tailors</p>
+        <p class="price">from Rs. 300</p>
+        <p class="meta">Area: Perungudi</p>
+        <a class="call" href="tel:+910000000005">Call: 00000 00005</a>
+      </div>
+      <div class="card">
+        <h3>Uniform Alteration</h3>
+        <p class="seller">by Kumar Tailoring</p>
+        <p class="price">from Rs. 80</p>
+        <p class="meta">Area: Guindy</p>
+        <a class="call" href="tel:+910000000006">Call: 00000 00006</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PICKLES AND MASALA ===== -->
+  <section class="section" id="pickles">
+    <h2>Pickles and Masala</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Mango Pickle (250 g)</h3>
+        <p class="seller">by Paati's Pickles</p>
+        <p class="price">Rs. 140</p>
+        <p class="meta">Area: T. Nagar</p>
+        <a class="call" href="tel:+910000000007">Call: 00000 00007</a>
+      </div>
+      <div class="card">
+        <h3>Sambar Powder (200 g)</h3>
+        <p class="seller">by Amudha Masala</p>
+        <p class="price">Rs. 110</p>
+        <p class="meta">Area: Porur</p>
+        <a class="call" href="tel:+910000000008">Call: 00000 00008</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SELL WITH US ===== -->
+  <section class="sell-strip">
+    <h2>Do you make something at home?</h2>
+    <p>List your product on LocalKart and customers will contact you directly.</p>
+    <a class="btn btn-green" href="order.html?type=sell">Sell With Us</a>
+  </section>
+
+  <footer>LocalKart - made with care for local sellers</footer>
+
+</body>
+</html>
